@@ -1,0 +1,268 @@
+
+
+body{
+  background-color:#f1f2ed;
+  font-family: 'CircularStd';
+
+}
+
+.medium_wrapper{
+  max-width: 730px;
+  margin: auto;
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+
+#subscribe-wrapper{
+  background-color: #fff;
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+#subscribe-wrapper .medium-wrapper{
+  padding:50px;
+}
+
+.vo-heading2{
+  color: #2d2d2b;
+  font-weight: 400;
+}
+
+.vc_grid.vc_row .vc_grid-item {
+    display: block!important;
+    float: left!important;
+} 
+
+.chronicle-category{
+  color:#73b05c;
+}
+
+.chronicle-date{
+  color:#73b05c;
+  padding-top:4px;
+}
+
+#breadcrumbs{
+  list-style:none;
+  margin:10px 0;
+  overflow:hidden;
+  padding-left: 0;
+}
+
+#breadcrumbs li{
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:15px;
+}
+
+#breadcrumbs .separator{
+  font-size:18px;
+  font-weight:100;
+  color:#ccc;
+}
+
+.posted-on{
+  color:#73b05c;
+}
+
+.chronicle-wrapper{
+  max-width: 810px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+
+.hero-image {
+  background-color: #490D40;
+  background: url('../images/voption-hero.png') no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-image .heading {
+  color: white;
+  font-size:32px;
+  max-width: 400px;
+}
+.hero-image p {
+  text-align: center;
+  padding: 20px 60px;
+}
+.hero-image p .btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.voption-searchbox{
+background: white;
+max-width: 580px;
+padding: 20px;
+}
+
+.voption-searchbox input{
+  border: none;
+  outline: none;
+  width: 90%;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.voption-searchbox .fa-search{
+  vertical-align: -webkit-baseline-middle;
+}
+
+.voption-searchbox .fa-arrow-right{
+  padding-left: 10px;
+}
+
+.voption-searchbox input:focus{
+  border: none;
+}
+
+.hero-image p .btn:hover {
+  color: white;
+  border-color: white;
+}
+
+.navbar{
+  background-color: white;
+}
+
+.homepage .navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.homepage .navbar-expand-lg .navbar-brand {
+  margin-top: 10px;
+  color: white;
+}
+.homepage .navbar-expand-lg .navbar-brand:hover {
+  color: white;
+}
+.homepage .navbar-expand-lg .navbar-nav > li > a {
+  color: white;
+  margin: 10px 5px 5px 5px;
+}
+.homepage .navbar-expand-lg .navbar-nav > li > a:hover, .navbar-expand-lg .navbar-nav > li > a:active, .navbar-expand-lg .navbar-nav > li > a:focus {
+  border: 1px solid white;
+}
+.homepage .navbar-expand-lg .navbar-nav > li > a:visited {
+  color: white;
+  text-decoration: none;
+}
+.homepage .navbar-expand-lg .navbar-nav > .active > a, .homepage  .navbar-expand-lg .navbar-nav > .active > a:hover, .homepage  .navbar-expand-lg .navbar-nav > .active > a:focus {
+  color: white;
+}
+.homepage .navbar-expand-lg .navbar-toggle {
+  border-color: white;
+}
+.homepage .navbar-expand-lg .navbar-toggle:hover, .homepage .navbar-expand-lg .navbar-toggle:focus {
+  background-color: #490D40;
+}
+.homepage .navbar-expand-lg .navbar-toggle .icon-bar {
+  color: white;
+}
+.homepage .navbar-expand-lg .navbar-collapse.collapse.in ul {
+  background-color: #490D40;
+}
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #490D40;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: white;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: white;
+  transition: color 1s ease 0s;
+}
+
+.about {
+  background-color: white;
+  color: #490D40;
+  height: 600px;
+  text-align: center;
+  margin-top: -20px;
+}
+.about h2 {
+  padding-top: 220px;
+}
+.about p {
+  padding: 20px 80px;
+}
+
+.contact-portlet{
+  background: white;
+  margin: 0 auto 30px auto;
+  max-width: 740px;
+  
+}
+
+.contact-message{
+  height: 120px;
+  cursor: pointer;
+  
+}
+
+.contact-text{
+  padding: 35px;
+}
+
+.contact-text h4{
+  color:#4BAA27
+}
+
+.contact-action{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form-wrapper{
+  padding: 35px;
+}
+
+.contact-section{
+  display: none;
+}
+
+.entry-content{
+  margin-top:80px;
+}
+
+.vo-restaurant-sidebar{
+  background-color: #F1F2ED;
+  max-width: 350px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.vo-restaurant-direction{
+  margin-top:20px;
+  background-color: #F1F2ED;
+  max-width: 350px;
+  padding:10px; 
+}
+.vo-restaurant-direction p{
+  margin: 0;
+}
+
+#restaurant-page-wrapper{
+  background-color: white;
+}

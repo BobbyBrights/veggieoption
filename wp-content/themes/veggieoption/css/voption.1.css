@@ -1,0 +1,167 @@
+
+body{
+  background-color:#f1f2ed;
+}
+
+a,h1,h2,h3,h4,p{
+  font-family: 'CircularStdMedium'!important;
+}
+
+
+#subscribe-wrapper{
+  background-color: #fff;
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+#subscribe-wrapper .medium-wrapper{
+  padding:50px;
+}
+
+.vo-heading2{
+  color: #2d2d2b;
+  font-weight: 400;
+}
+
+.vc_grid.vc_row .vc_grid-item {
+    display: block!important;
+    float: left!important;
+}
+
+.chronicle-category{
+  color:#73b05c;
+}
+
+.chronicle-date{
+  color:#73b05c;
+  padding-top:4px;
+}
+
+#breadcrumbs{
+  list-style:none;
+  margin:10px 0;
+  overflow:hidden;
+  padding-left: 0;
+}
+
+#breadcrumbs li{
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:15px;
+}
+
+#breadcrumbs .separator{
+  font-size:18px;
+  font-weight:100;
+  color:#ccc;
+}
+
+.posted-on{
+  color:#73b05c;
+}
+
+.chronicle-wrapper{
+  max-width: 810px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+
+.hero-image {
+  background-color: #490D40;
+  background: url('../images/voption-hero.png') no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  margin-top: -20px;
+}
+  .heading {
+     color: white;
+     text-align: center;
+     padding-top: 200px;
+  }
+
+.navbar {
+ height: 80px;
+ background-color: transparent;
+ border: none;
+ z-index: 100;
+ transition: background-color 1s ease 0s;
+}
+
+
+  .navbar-brand:hover {
+        color: #C57ED3;
+        border: 1px solid #C57ED3;
+     } 
+
+  
+ .navbar-nav > li > a {
+    color: white;
+    margin: 10px 5px 5px 5px;
+}
+.navbar-nav > li > .navbar-nav > li > a:hover, .navbar-nav > li > a:active, .navbar-nav > li > a:focus {
+       color: #C57ED3;
+       border: 1px solid #C57ED3;
+     }
+     .navbar-nav > li > a:visited {
+       color: #C57ED3;
+       text-decoration: none;
+     }
+
+     .navbar-nav > li > a .active > a, 
+     .navbar-nav > li > a .hover > a, 
+     .navbar-nav > li > a .focus > a
+    {
+       background-color: transparent;
+       color: #C57ED3;
+     }
+
+
+
+ .navbar-toggle {
+   border-color: #C57ED3;
+ }
+ .navbar-toggle :hover, .navbar-toggle :focus {
+       background-color: #490D40;
+     }
+
+
+
+     .icon-bar {
+       color: #C57ED3;
+       background-color: #C57ED3;
+
+     }
+
+ .navbar-collapse.collapse.in ul {
+   background-color: #490D40;
+ }
+   
+
+
+/* Solid class attached on scroll past first section */
+
+.navbar.solid {
+ background-color: #490D40;
+ transition: background-color 1s ease 0s;
+ box-shadow: 0 0 4px grey;
+}
+
+   .navbar-brand {
+     color: #C57ED3;
+     transition: color 1s ease 0s;
+   }
+
+   .navbar-nav li > a {
+           color: #C57ED3;
+           transition: color 1s ease 0s;
+         }
+
+.about {
+  background-color: #C57ED3;
+  color: #490D40;
+  height: 600px;
+  text-align: center;
+  margin-top: -20px;}
+
